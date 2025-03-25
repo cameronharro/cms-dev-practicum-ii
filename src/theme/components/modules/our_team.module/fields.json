@@ -1,0 +1,116 @@
+[ {
+  "id" : "9acdcd7a-7b37-603b-9669-eaf501890e0f",
+  "name" : "group_name",
+  "label" : "Group Name",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "Our Fellowship"
+}, {
+  "id" : "e150a924-d6d9-bd9d-be5e-7686662f61db",
+  "name" : "members",
+  "label" : "Members",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 2,
+    "max" : 10,
+    "sorting_label_field" : null,
+    "default" : 3
+  },
+  "children" : [ {
+    "id" : "c136232c-041f-beef-e320-76bed909f3b3",
+    "name" : "headshot",
+    "label" : "Headshot",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : false,
+    "show_loading" : false,
+    "type" : "image",
+    "display_width" : null,
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://25409621.fs1.hubspotusercontent-eu1.net/hubfs/25409621/Aragorn.webp",
+      "alt" : "Aragorn",
+      "loading" : "lazy",
+      "width" : 1000,
+      "height" : 1000,
+      "max_width" : 1000,
+      "max_height" : 1000
+    }
+  }, {
+    "id" : "8f76d630-deea-45a5-b473-6ee98d3a819d",
+    "name" : "member_name",
+    "label" : "Member Name",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "display_width" : null,
+    "default" : "Aragorn, son of Arathorn"
+  }, {
+    "id" : "b1ca8285-92dc-5e3c-97c8-dcf04432e9da",
+    "name" : "role",
+    "label" : "Role",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "display_width" : null,
+    "default" : "King of Gondor and Arnor"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : [ {
+    "headshot" : {
+      "size_type" : "auto",
+      "src" : "https://25409621.fs1.hubspotusercontent-eu1.net/hubfs/25409621/Aragorn.webp",
+      "alt" : "Aragorn",
+      "loading" : "lazy",
+      "width" : 1000,
+      "height" : 1000,
+      "max_width" : 1000,
+      "max_height" : 1000
+    },
+    "member_name" : "Aragorn, son of Arathorn",
+    "role" : "King of Gondor and Arnor"
+  }, {
+    "headshot" : {
+      "size_type" : "auto",
+      "src" : "https://25409621.fs1.hubspotusercontent-eu1.net/hubfs/25409621/Aragorn.webp",
+      "alt" : "Aragorn",
+      "loading" : "lazy",
+      "width" : 1000,
+      "height" : 1000,
+      "max_width" : 1000,
+      "max_height" : 1000
+    },
+    "member_name" : "Aragorn, son of Arathorn",
+    "role" : "King of Gondor and Arnor"
+  }, {
+    "headshot" : {
+      "size_type" : "auto",
+      "src" : "https://25409621.fs1.hubspotusercontent-eu1.net/hubfs/25409621/Aragorn.webp",
+      "alt" : "Aragorn",
+      "loading" : "lazy",
+      "width" : 1000,
+      "height" : 1000,
+      "max_width" : 1000,
+      "max_height" : 1000
+    },
+    "member_name" : "Aragorn, son of Arathorn",
+    "role" : "King of Gondor and Arnor"
+  } ]
+} ]

@@ -1,0 +1,24 @@
+<h2>
+  {{ module.group_name }}
+</h2>
+
+<div class="flex-container">
+{% for member in module.members %}
+  <div class="card-container">
+    <div class="card">
+      <div class="img-container">
+        {% if member.headshot.src %}
+           {% set loadingAttr = member.headshot.loading != 'disabled' ? 'loading="{{ module.headshot.loading }}"' : '' %}
+          <img src="{{ member.headshot.src }}" alt="{{ member.headshot.alt }}" {{ loadingAttr }} >
+        {% endif %}
+      </div>
+      <h4>
+        {% inline_text field="member_name" value="{{ member.member_name }}" %}
+      </h4>
+      <p>
+        {% inline_text field="role" value="{{ member.role }}" %}
+      </p>
+    </div>
+  </div>
+{% endfor %}
+</div>

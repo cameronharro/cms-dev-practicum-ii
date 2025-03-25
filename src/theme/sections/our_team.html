@@ -1,0 +1,18 @@
+<!--
+    templateType: section
+    isAvailableForNewContent: true
+    label: The Fellowship
+-->
+<!-- Begin partial -->
+  {% dnd_section
+    max_width= {{ context.content_width || 900 }},
+    vertical_alignment="MIDDLE"
+  %}
+    {% dnd_module 
+      label="Our Fellowship",
+      path="../modules/our_team",
+      width=12
+    %}
+    {%end_dnd_module%}
+  {% end_dnd_section %}
+<!-- End partial -->
