@@ -1,5 +1,36 @@
 [
   {
+    "label": "Global Colors",
+    "name": "global_colors",
+    "type": "group",
+    "children": [
+      {
+        "label": "Primary Color",
+        "name": "primary_color",
+        "type": "color",
+        "default": {
+          "color": "brand_settings.primaryColor"
+        }
+      },
+      {
+        "label": "Secondary Color",
+        "name": "secondary_color",
+        "type": "color",
+        "default": {
+          "color": "brand_settings.secondaryColor"
+        }
+      },
+      {
+        "label": "Accent Color",
+        "name": "accent_color",
+        "type": "color",
+        "default": {
+          "color": "brand_settings.accentColor1"
+        }
+      }
+    ]
+  },
+  {
     "label": "Header and Footer",
     "name": "header_and_footer",
     "type": "group",
