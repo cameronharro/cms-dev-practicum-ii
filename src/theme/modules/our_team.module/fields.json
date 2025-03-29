@@ -89,28 +89,28 @@
   }, {
     "headshot" : {
       "size_type" : "auto",
-      "src" : "https://25409621.fs1.hubspotusercontent-eu1.net/hubfs/25409621/Aragorn.webp",
-      "alt" : "Aragorn",
+      "src" : "https://47585160.fs1.hubspotusercontent-na1.net/hubfs/47585160/Gimli.webp",
+      "alt" : "Gimli",
       "loading" : "lazy",
       "width" : 1000,
       "height" : 1000,
       "max_width" : 1000,
       "max_height" : 1000
     },
-    "member_name" : "Aragorn, son of Arathorn",
-    "role" : "King of Gondor and Arnor"
+    "member_name" : "Gimli, son of Gloin",
+    "role" : "Dwarf of the Lonely Mountain"
   }, {
     "headshot" : {
       "size_type" : "auto",
-      "src" : "https://25409621.fs1.hubspotusercontent-eu1.net/hubfs/25409621/Aragorn.webp",
-      "alt" : "Aragorn",
+      "src" : "https://47585160.fs1.hubspotusercontent-na1.net/hubfs/47585160/Legolas.jpeg",
+      "alt" : "Legolas",
       "loading" : "lazy",
       "width" : 1000,
       "height" : 1000,
       "max_width" : 1000,
       "max_height" : 1000
     },
-    "member_name" : "Aragorn, son of Arathorn",
-    "role" : "King of Gondor and Arnor"
+    "member_name" : "Legolas, son of Thranduil",
+    "role" : "Elf of Greenwood the Great"
   } ]
 } ]
