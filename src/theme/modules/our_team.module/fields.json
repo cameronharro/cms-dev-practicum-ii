@@ -35,7 +35,7 @@
     "display_width" : null,
     "default" : {
       "size_type" : "auto",
-      "src" : "https://25409621.fs1.hubspotusercontent-eu1.net/hubfs/25409621/Aragorn.webp",
+      "src" : "https://47585160.fs1.hubspotusercontent-na1.net/hubfs/47585160/Aragorn.webp",
       "alt" : "Aragorn",
       "loading" : "lazy",
       "width" : 1000,
@@ -76,7 +76,7 @@
   "default" : [ {
     "headshot" : {
       "size_type" : "auto",
-      "src" : "https://25409621.fs1.hubspotusercontent-eu1.net/hubfs/25409621/Aragorn.webp",
+      "src" : "https://47585160.fs1.hubspotusercontent-na1.net/hubfs/47585160/Aragorn.webp",
       "alt" : "Aragorn",
       "loading" : "lazy",
       "width" : 1000,
@@ -113,4 +113,21 @@
     "member_name" : "Legolas, son of Thranduil",
     "role" : "Elf of Greenwood the Great"
   } ]
+},
+{
+  "label": "Styles",
+  "name": "style",
+  "type": "group",
+  "tab": "STYLE",
+  "children": [
+    {
+      "name": "border",
+      "label": "Border",
+      "required": false,
+      "locked": false,
+      "allow_custom_border_sides": false,
+      "type": "border",
+      "default": {}
+    }
+  ]
 } ]
