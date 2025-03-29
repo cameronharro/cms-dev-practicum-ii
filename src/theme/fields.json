@@ -9,7 +9,12 @@
         "name": "primary_color",
         "type": "color",
         "default": {
-          "color": "brand_settings.primaryColor"
+          "color": "#517B0E"
+        },
+        "inherited_value": {
+          "property_value_paths": {
+            "color": "brand_settings.primaryColor"
+          }
         }
       },
       {
@@ -17,7 +22,12 @@
         "name": "secondary_color",
         "type": "color",
         "default": {
-          "color": "brand_settings.secondaryColor"
+          "color": "#f9f4ee"
+        },
+        "inherited_value": {
+          "property_value_paths": {
+            "color": "brand_settings.secondaryColor"
+          }
         }
       },
       {
@@ -25,7 +35,12 @@
         "name": "accent_color",
         "type": "color",
         "default": {
-          "color": "brand_settings.accentColor1"
+          "color": "#363f5a"
+        },
+        "inherited_value": {
+          "property_value_paths": {
+            "color": "brand_settings.accentColor1"
+          }
         }
       }
     ]
