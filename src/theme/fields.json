@@ -55,7 +55,12 @@
         "name": "background_color",
         "type": "color",
         "default": {
-          "color": "brand_settings.primaryColor"
+          "color": "#517B0E"
+        },
+        "inherited_value": {
+          "property_value_paths": {
+            "color": "brand_settings.primaryColor"
+          }
         }
       },
       {
