@@ -1,9 +1,11 @@
+*,
+:after,
+:before {
+  margin: 0;
+}
+
 {% include './_layout.hubl.css' %}
 {% include './_containers-dnd.hubl.css' %}
-
-.dnd-module {
-  padding: 25px
-}
 
 header, footer {
   background-color: {{ theme.header_and_footer.background_color.color }};
