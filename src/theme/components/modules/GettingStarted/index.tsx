@@ -5,7 +5,7 @@ import {
   ImageField,
 } from '@hubspot/cms-components/fields';
 import { RichText } from '@hubspot/cms-components';
-import logo from '../../../assets/sprocket.svg';
+import logo from '../../../images/sprocket.svg';
 import styles from '../../../styles/getting-started.module.css';
 
 export function Component({ fieldValues, hublParameters }) {
