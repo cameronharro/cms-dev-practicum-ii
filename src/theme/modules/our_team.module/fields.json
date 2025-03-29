@@ -1,16 +1,4 @@
 [ {
-  "id" : "9acdcd7a-7b37-603b-9669-eaf501890e0f",
-  "name" : "group_name",
-  "label" : "Group Name",
-  "required" : false,
-  "locked" : false,
-  "validation_regex" : "",
-  "allow_new_line" : false,
-  "show_emoji_picker" : false,
-  "type" : "text",
-  "display_width" : null,
-  "default" : "Our Fellowship"
-}, {
   "id" : "e150a924-d6d9-bd9d-be5e-7686662f61db",
   "name" : "members",
   "label" : "Members",
