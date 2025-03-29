@@ -6,8 +6,15 @@
 
 {% include './_layout.hubl.css' %}
 {% include './_containers-dnd.hubl.css' %}
+{% include './_footer.hubl.css'%}
 
-header, footer {
+.body-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
   background-color: {{ theme.header_and_footer.background_color.color }};
   font-family: {{ theme.header_and_footer.font.font }};
 }

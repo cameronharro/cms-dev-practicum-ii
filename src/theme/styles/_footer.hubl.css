@@ -1,0 +1,8 @@
+div:has(footer) {
+  margin-top: auto;
+}
+
+footer {
+  background-color: {{ theme.header_and_footer.background_color.color }};
+  font-family: {{ theme.header_and_footer.font.font }};
+}
