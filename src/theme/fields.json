@@ -1,27 +1,27 @@
 [
   {
-      "label": "Header and Footer",
-      "name": "header_and_footer",
-      "type": "group",
-      "children": [
-          {
-              "label": "Background Color",
-              "name": "background_color",
-              "type": "color",
-              "default": {
-                "color": "#87B981"
-              }
-          },
-          {
-              "label": "Font",
-              "name": "font",
-              "type": "font",
-              "default": {
-                  "fallback": "serif",
-                  "font": "Tacoma",
-                  "font_set": "GOOGLE"
-                }
-          }
-      ]
+    "label": "Header and Footer",
+    "name": "header_and_footer",
+    "type": "group",
+    "children": [
+      {
+        "label": "Background Color",
+        "name": "background_color",
+        "type": "color",
+        "default": {
+          "color": "brand_settings.primaryColor"
+        }
+      },
+      {
+        "label": "Font",
+        "name": "font",
+        "type": "font",
+        "default": {
+          "fallback": "serif",
+          "font": "Tacoma",
+          "font_set": "GOOGLE"
+        }
+      }
+    ]
   }
 ]
