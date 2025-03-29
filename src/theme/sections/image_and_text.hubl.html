@@ -1,0 +1,41 @@
+<!--
+    templateType: section
+    label: Image and Text
+    isAvailableForNewContent: true
+    screenshotPath: ../images/sections-preview/image_and_text_preview.png
+    label: Chapter One
+-->
+<!-- Begin partial -->
+{% dnd_section
+    max_width= {{ context.content_width || 900 }},
+    vertical_alignment="MIDDLE"
+    %}
+      {% dnd_module
+        label="Image",
+        path="@hubspot/linked_image",
+        offset=0,
+        width=6,
+        img={
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/One_Ring_Blender_Render.png/1920px-One_Ring_Blender_Render.png",
+          "alt": "The One Ring",
+          "size_type": "auto_custom_max",
+        }
+      %}
+      {%end_dnd_module%}
+      {% dnd_module
+        label="Rich Text",
+        path="@hubspot/rich_text",
+        offset=6,
+        width=6
+      %}
+        {% module_attribute "html"%}
+          <h2><a href="https://www.nytimes.com/2001/11/19/books/chapters/the-lord-of-the-rings-the-fellowship-of-the-ring.html">Chapter 1: A Long-Expected Party</a></h2>
+          <p>
+            When Mr. Bilbo Baggins of Bag End announced that he would shortly be celebrating his eleventy-first birthday with a party of special magnificence, there was much talk and excitement in Hobbiton.
+            <br>
+            <br>
+            Bilbo was very rich and very peculiar, and had been the wonder of the Shire for sixty years, ever since his remarkable disappearance and unexpected return. The riches he had brought back from his travels had now become a local legend, and it was popularly believed, whatever the old folk might say, that the Hill at Bag End was full of tunnels stuffed with treasure. And if that was not enough for fame, there was also his prolonged vigour to marvel at. Time wore on, but it seemed to have little effect on Mr. Baggins. At ninety he was much the same as at fifty. At ninety-nine they began to call him well-preserved ; but unchanged would have been nearer the mark. There were some that shook their heads and thought this was too much of a good thing; it seemed unfair that anyone should possess (apparently) perpetual youth as well as (reputedly) inexhaustible wealth.
+          </p>
+        {% end_module_attribute %}
+      {%end_dnd_module%}
+    {% end_dnd_section %}
