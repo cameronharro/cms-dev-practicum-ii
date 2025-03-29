@@ -22,3 +22,13 @@
   </div>
 {% endfor %}
 </div>
+
+{% require_css %}
+  <style>
+    {% scope_css %}
+      img {
+        {{module.style.border.css}};
+      }
+    {% end_scope_css %}
+  </style>
+{% end_require_css %}
