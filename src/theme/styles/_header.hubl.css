@@ -3,3 +3,15 @@ header {
   font-family: {{ theme.header_and_footer.font.font }};
   padding: 20px;
 }
+
+.go-to-content {
+  background-color: white;
+  position: fixed;
+  top: -30px;
+  transition: top 0.25s;
+  padding: 5px;
+}
+
+.go-to-content:focus {
+  top: 0px;
+}
