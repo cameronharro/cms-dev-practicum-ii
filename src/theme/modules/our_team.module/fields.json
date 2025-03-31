@@ -22,7 +22,7 @@
     "type" : "image",
     "display_width" : null,
     "default" : {
-      "size_type" : "auto",
+      "size_type" : "auto_custom_max",
       "src" : "https://47585160.fs1.hubspotusercontent-na1.net/hubfs/47585160/Aragorn.webp",
       "alt" : "Aragorn",
       "loading" : "lazy",
