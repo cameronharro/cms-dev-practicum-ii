@@ -5,7 +5,7 @@
       <div class="img-container">
         {% if member.headshot.src %}
            {% set loadingAttr = member.headshot.loading != 'disabled' ? 'loading="{{ module.headshot.loading }}"' : '' %}
-          <img src="{{ member.headshot.src }}" alt="{{ member.headshot.alt }}" {{ loadingAttr }} >
+          <img src="{{ resize_image_url(member.headshot.src, 250) }}" alt="{{ member.headshot.alt }}" {{ loadingAttr }} >
         {% endif %}
       </div>
       <h4>
