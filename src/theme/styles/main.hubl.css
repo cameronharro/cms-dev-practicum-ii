@@ -13,6 +13,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: {{ theme.global_colors.secondary_color.rgba }};
 }
 
 .dnd-module {

@@ -1,6 +1,7 @@
 header {
-  background-color: {{ theme.header_and_footer.background_color.color }};
+  background-color: {{ theme.header_and_footer.header_background_color.color }};
   font-family: {{ theme.header_and_footer.font.font }};
+  color: {{ theme.header_and_footer.font.color }};
   padding: 20px;
 }
 

@@ -3,7 +3,7 @@ div:has(footer) {
 }
 
 footer {
-  background-color: {{ theme.header_and_footer.background_color.color }};
+  background-color: {{ theme.header_and_footer.footer_background_color.color }};
   font-family: {{ theme.header_and_footer.font.font }};
   padding: 20px
 }
