@@ -5,7 +5,9 @@
       <div class="img-container">
         {% if member.headshot.src %}
            {% set loadingAttr = member.headshot.loading != 'disabled' ? 'loading="{{ member.headshot.loading }}"' : '' %}
-          <img src="{{ resize_image_url(member.headshot.src, 250) }}" width="{{ member.headshot.width }}" alt="{{ member.headshot.alt }}" {{ loadingAttr }} >
+          {% set widthAttr = "width=" ~ member.headshot.width or member.headshot.max_width %}
+          {% set heightAttr = "height=" ~ member.headshot.height or member.headshot.max_height %}
+          <img src="{{ resize_image_url(member.headshot.src, 250) }}" {{ widthAttr }} {{heightAttr}} alt="{{ member.headshot.alt }}" {{ loadingAttr }} >
         {% endif %}
       </div>
       <h3>
