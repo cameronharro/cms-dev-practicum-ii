@@ -51,8 +51,21 @@
     "type": "group",
     "children": [
       {
-        "label": "Background Color",
-        "name": "background_color",
+        "label": "Header Background Color",
+        "name": "header_background_color",
+        "type": "color",
+        "default": {
+          "color": "#f9f4ee"
+        },
+        "inherited_value": {
+          "property_value_paths": {
+            "color": "brand_settings.secondaryColor"
+          }
+        }
+      },
+      {
+        "label": "Footer Background Color",
+        "name": "footer_background_color",
         "type": "color",
         "default": {
           "color": "#517B0E"
@@ -70,7 +83,8 @@
         "default": {
           "fallback": "serif",
           "font": "Tacoma",
-          "font_set": "GOOGLE"
+          "font_set": "GOOGLE",
+          "color": "#517B0E"
         }
       }
     ]
