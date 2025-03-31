@@ -17,8 +17,8 @@
     "required" : false,
     "locked" : false,
     "responsive" : true,
-    "resizable" : false,
-    "show_loading" : false,
+    "resizable" : true,
+    "show_loading" : true,
     "type" : "image",
     "display_width" : null,
     "default" : {

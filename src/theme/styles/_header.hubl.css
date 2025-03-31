@@ -9,8 +9,10 @@ header {
   background-color: white;
   position: fixed;
   top: -30px;
+  left: 1px;
   transition: top 0.25s;
   padding: 5px;
+  border: 1px solid black;
 }
 
 .go-to-content:focus {

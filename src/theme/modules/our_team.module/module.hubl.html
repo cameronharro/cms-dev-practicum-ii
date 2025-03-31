@@ -4,8 +4,8 @@
     <div class="card">
       <div class="img-container">
         {% if member.headshot.src %}
-           {% set loadingAttr = member.headshot.loading != 'disabled' ? 'loading="{{ module.headshot.loading }}"' : '' %}
-          <img src="{{ resize_image_url(member.headshot.src, 250) }}" alt="{{ member.headshot.alt }}" {{ loadingAttr }} >
+           {% set loadingAttr = member.headshot.loading != 'disabled' ? 'loading="{{ member.headshot.loading }}"' : '' %}
+          <img src="{{ resize_image_url(member.headshot.src, 250) }}" width="{{ member.headshot.width }}" alt="{{ member.headshot.alt }}" {{ loadingAttr }} >
         {% endif %}
       </div>
       <h3>
