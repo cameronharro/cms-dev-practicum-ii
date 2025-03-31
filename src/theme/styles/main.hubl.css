@@ -19,3 +19,7 @@ header {
   font-family: {{ theme.header_and_footer.font.font }};
   padding: 20px;
 }
+
+.dnd-module {
+  padding: 20px;
+}
