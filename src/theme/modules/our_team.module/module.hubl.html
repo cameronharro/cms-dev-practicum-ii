@@ -8,9 +8,9 @@
           <img src="{{ resize_image_url(member.headshot.src, 250) }}" alt="{{ member.headshot.alt }}" {{ loadingAttr }} >
         {% endif %}
       </div>
-      <h4>
+      <h3>
         {% inline_text field="member_name" value="{{ member.member_name }}" %}
-      </h4>
+      </h3>
       <p>
         {% inline_text field="role" value="{{ member.role }}" %}
       </p>
