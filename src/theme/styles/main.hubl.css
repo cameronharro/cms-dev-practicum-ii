@@ -17,4 +17,5 @@
 header {
   background-color: {{ theme.header_and_footer.background_color.color }};
   font-family: {{ theme.header_and_footer.font.font }};
+  padding: 20px;
 }
